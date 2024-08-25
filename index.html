@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FDSS</title>
+    <link href="LOGO.png" rel="icon">
+
+    <!-- Font Awesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            /* Dark theme background */
+            color: #ffffff;
+            /* Light text for dark theme */
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: #20212B;
+            padding: 25px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar-logo img {
+            height: 70px;
+        }
+
+        .navbar-social a {
+            color: #ecf0f1;
+            margin-left: 15px;
+            font-size: 20px;
+            transition: color 0.3s;
+        }
+
+        .navbar-social a:hover {
+            color: #13DBD2;
+        }
+
+        .banner {
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 30px;
+            padding: 10px;
+            border: 2px solid white;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .banner img {
+            border-radius: 20px;
+            width: 100%;
+            height: auto;
+        }
+
+        /* Form Section */
+        .form-section {
+            padding: 20px 20px;
+            max-width: 750px;
+            margin: 0 auto;
+        }
+
+        .form-container {
+            max-width: 1200px;
+            /* Increased the max-width */
+            margin: 0 auto;
+        }
+
+        /* Footer */
+        .footer {
+            position: relative;
+            margin-top: 45px;
+            padding-top: 60px;
+            background: #20212B;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .footer-logo img {
+            max-width: 150px;
+            margin-bottom: 20px;
+        }
+
+        .footer-contact {
+            margin-bottom: 45px;
+        }
+
+        .footer-contact h2 {
+            margin-bottom: 30px;
+            font-size: 22px;
+            font-weight: 700;
+            color: #13DBD2;
+        }
+
+        .footer-contact p {
+            font-size: 16px;
+        }
+
+        .footer-contact p i {
+            width: 25px;
+            margin-right: 10px;
+        }
+
+        .footer-social a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            padding: 10px;
+            margin: 0 10px;
+            background-color: #333;
+            border-radius: 50%;
+            color: #ffffff;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+
+        .footer-social a:hover {
+            background-color: #13DBD2;
+        }
+
+        .copyright {
+            padding: 20px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #999999;
+        }
+
+        .copyright a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .copyright a:hover {
+            color: #13DBD2;
+        }
+
+        form {
+            text-align: center;
+        }
+
+        form .control-group {
+            margin-bottom: 15px;
+            width: 100%;
+        }
+
+        form .form-control {
+            height: 60px;
+            color: white;
+            padding: 0 15px;
+            max-width: 700px;
+            width: 100%;
+            border-radius: 10px;
+            border: 1px solid #ffffff;
+            background: transparent;
+            box-sizing: border-box;
+        }
+
+        form textarea.form-control {
+            height: 120px;
+            padding: 15px;
+        }
+
+        form .form-control::placeholder {
+            color: #ffffff;
+            opacity: 1;
+        }
+
+        form .form-control:-ms-input-placeholder,
+        form .form-control::-ms-input-placeholder {
+            color: #ffffff;
+        }
+
+        form .btn.btn-custom {
+            padding: 15px 0;
+            border-radius: 10px;
+            width: 80%;
+            height: 60px;
+            color: black;
+            background-color: white;
+            border: 1px solid black;
+            box-shadow: inset 0 0 0 0 black;
+        }
+
+        form .btn.btn-custom:hover {
+            border: 1px solid white;
+            background-color: black;
+            color: white;
+            box-shadow: inset 0 0 0 30px black;
+        }
+
+        ul{
+            padding: 5px;
+        }
+
+        ul li {
+            list-style-type: none;
+            margin: 10px 0px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <a href="#"><img src="LOGO.png" alt="Society Logo"></a>
+        </div>
+        <div class="navbar-social">
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <section class="banner">
+        <img src="banner.jpg" alt="Banner Image">
+    </section>
+
+    <div class="data" style="max-width: 800px; margin: auto; padding: 30px">
+
+        <section style="text-align: center;">
+            <h2>Welcome to Our Workshop</h2>
+            <h3>Ubuntu Installation & Query Resolution</h3>
+            <p>Fast Data Science Society 24-25 is here to guide you through the Ubuntu installation process and answer
+                all your queries.</p>
+
+            <h4>Why Attend Our Workshop?</h4>
+            <ul>
+                <li><strong>Learn from Experts:</strong> Get hands-on experience with guidance from seasoned
+                    professionals.</li>
+                <li><strong>Resolve Your Queries:</strong> Bring your questions and get them answered on the spot.</li>
+                <li><strong>Community Support:</strong> Be part of a community that values knowledge sharing.</li>
+            </ul>
+            <p>Fill the form below with your query and take the first step towards mastering Ubuntu with support from
+                Fast Data Science
+                Society 24-25.</p>
+        </section>
+
+        <div class="form-section">
+            <div class="form-container">
+                <form
+                    action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdoiD9K4oJ3P5bZg-e-jrPH_B5QvDG4aDCsOGqdMwuP4_x6cw/formResponse"
+                    target="_blank" method="POST">
+
+                    <div class="control-group">
+                        <input type="text" name="entry.1210388446" class="form-control" placeholder="Name"
+                            required="required" />
+                    </div>
+
+                    <div class="control-group">
+                        <textarea name="entry.1937911389" class="form-control" placeholder="Query You Want Us to Resolve?"
+                            required="required"></textarea>
+                    </div>
+
+                    <div>
+                        <button class="btn btn-custom" type="submit">Submit</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Start -->
+    <div class="footer">
+        <div class="footer-logo">
+            <img src="LOGO.png" alt="Society Logo">
+        </div>
+        <div class="footer-contact">
+            <h2>Contact Us</h2>
+            <p><i class="fas fa-map-marker-alt"></i>Fast Islamabad, Pakistan</p>
+            <p><i class="fa fa-envelope"></i>fdss@isb.nu.edu.pk</p>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; <a href="#">FDSS</a>, All Right Reserved.</p>
+            <p>Designed By FDSS Project Team 24-25</p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+</body>
+
+</html>
